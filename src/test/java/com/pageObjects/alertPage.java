@@ -1,12 +1,15 @@
 package com.pageObjects;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
+
 
 public class alertPage extends Testbase {
 	
@@ -23,9 +26,10 @@ public class alertPage extends Testbase {
 	WebElement proAlert;
 	
 	public void winAlert() {
-		comUtil.clickElement(winAlert);
-		Alert alert= driver.switchTo().alert();
-		alert.accept();		
+		browUtil.clickElement(winAlert);
+		browUtil.waitforAlert(driver);
+		driver.switchTo().alert().accept();
+			
 		
 	}
 	

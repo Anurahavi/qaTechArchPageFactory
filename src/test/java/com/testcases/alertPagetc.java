@@ -13,7 +13,8 @@ import org.testng.annotations.Test;
 import com.pageObjects.HomePage;
 import com.pageObjects.alertPage;
 import com.pageObjects.loginPage;
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
 
 public class alertPagetc extends Testbase {
 	

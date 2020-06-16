@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 import com.pageObjects.HomePage;
 import com.pageObjects.calculatorPage;
 import com.pageObjects.loginPage;
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
 
 public class calculatorTc extends Testbase {
 	

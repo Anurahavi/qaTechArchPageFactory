@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
+
 
 public class calculatorPage extends Testbase {
 	
@@ -26,10 +28,10 @@ public WebDriver driver;
 	WebElement equals;
 	
 	public void calculator() {
-		comUtil.clickElement(num1);
-		comUtil.clickElement(add);
-		comUtil.clickElement(num2);
-		comUtil.clickElement(equals);
+		browUtil.clickElement(num1);
+		browUtil.clickElement(add);
+		browUtil.clickElement(num2);
+		browUtil.clickElement(equals);
 	}
 	
 	

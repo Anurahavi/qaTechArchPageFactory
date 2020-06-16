@@ -14,7 +14,8 @@ import org.testng.annotations.Test;
 
 import com.pageObjects.HomePage;
 import com.pageObjects.loginPage;
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
 
 public class loginPagetc extends Testbase {
 	
@@ -23,10 +24,7 @@ public class loginPagetc extends Testbase {
     public WebDriver driver;
 	
     
-    @BeforeSuite
-	public void log4j() throws IOException {
-		log4jproperty();
-	}
+   
 
 	@BeforeMethod
 	public void beforeEach() throws IOException{

@@ -1,4 +1,4 @@
-package Listeners;
+package com.listeners;
 
 import java.io.IOException;
 
@@ -10,8 +10,9 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.resources.ExtentReporterNG;
-import com.resources.Testbase;
+
+import com.utilties.Testbase;
+
 
 public class TestListener extends Testbase implements ITestListener{
     
@@ -41,7 +42,7 @@ public class TestListener extends Testbase implements ITestListener{
 			e.printStackTrace();
 		}
 		try {
-			extentTest.get().addScreenCaptureFromPath(getScreenShotPath(testMethodName,driver),testMethodName);
+			extentTest.get().addScreenCaptureFromPath(comUtil.getScreenShotPath(testMethodName,driver),testMethodName);
 			
 			
 		} catch (IOException e) {
@@ -52,7 +53,7 @@ public class TestListener extends Testbase implements ITestListener{
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		extentTest.get().log(Status.INFO,"Test case skipped");
 		
 	}
 

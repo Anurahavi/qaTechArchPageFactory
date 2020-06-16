@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43086" started-at="2020-06-12T20:16:30Z" finished-at="2020-06-12T20:17:13Z">
+  <suite name="Suite" duration-ms="43875" started-at="2020-06-16T05:50:18Z" finished-at="2020-06-16T05:51:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43086" started-at="2020-06-12T20:16:30Z" finished-at="2020-06-12T20:17:13Z">
+    <test name="Test" duration-ms="43875" started-at="2020-06-16T05:50:18Z" finished-at="2020-06-16T05:51:01Z">
       <class name="com.testcases.loginPagetc">
-        <test-method status="PASS" signature="log4j()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="log4j" is-config="true" duration-ms="38" started-at="2020-06-12T13:16:30Z" finished-at="2020-06-12T13:16:30Z">
+        <test-method status="PASS" signature="log4j()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="log4j" is-config="true" duration-ms="30" started-at="2020-06-15T22:50:18Z" finished-at="2020-06-15T22:50:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- log4j -->
-        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="beforeEach" is-config="true" duration-ms="6007" started-at="2020-06-12T13:16:44Z" finished-at="2020-06-12T13:16:50Z">
+        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="beforeEach" is-config="true" duration-ms="6242" started-at="2020-06-15T22:50:35Z" finished-at="2020-06-15T22:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="logintoApp" duration-ms="1518" started-at="2020-06-12T13:16:50Z" finished-at="2020-06-12T13:16:51Z">
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="logintoApp" duration-ms="1500" started-at="2020-06-15T22:50:41Z" finished-at="2020-06-15T22:50:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="tearDown" is-config="true" duration-ms="679" started-at="2020-06-12T13:16:51Z" finished-at="2020-06-12T13:16:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-06-15T22:50:43Z" finished-at="2020-06-15T22:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="beforeEach" is-config="true" duration-ms="6079" started-at="2020-06-12T13:16:52Z" finished-at="2020-06-12T13:16:58Z">
+        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="beforeEach" is-config="true" duration-ms="6099" started-at="2020-06-15T22:50:44Z" finished-at="2020-06-15T22:50:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="logoutApp" duration-ms="1620" started-at="2020-06-12T13:16:58Z" finished-at="2020-06-12T13:17:00Z">
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="logoutApp" duration-ms="1720" started-at="2020-06-15T22:50:50Z" finished-at="2020-06-15T22:50:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-06-12T13:17:00Z" finished-at="2020-06-12T13:17:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="tearDown" is-config="true" duration-ms="944" started-at="2020-06-15T22:50:51Z" finished-at="2020-06-15T22:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="beforeEach" is-config="true" duration-ms="6084" started-at="2020-06-12T13:17:05Z" finished-at="2020-06-12T13:17:11Z">
+        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="beforeEach" is-config="true" duration-ms="6148" started-at="2020-06-15T22:50:52Z" finished-at="2020-06-15T22:50:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method status="PASS" signature="invalidlog()[pri:1, instance:com.testcases.loginPagetc@3d0f8e03]" name="invalidlog" duration-ms="794" started-at="2020-06-12T13:17:11Z" finished-at="2020-06-12T13:17:11Z">
+        <test-method status="PASS" signature="invalidlog()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="invalidlog" duration-ms="910" started-at="2020-06-15T22:50:58Z" finished-at="2020-06-15T22:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidlog -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@3d0f8e03]" name="tearDown" is-config="true" duration-ms="681" started-at="2020-06-12T13:17:11Z" finished-at="2020-06-12T13:17:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPagetc@134593bf]" name="tearDown" is-config="true" duration-ms="750" started-at="2020-06-15T22:50:59Z" finished-at="2020-06-15T22:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.loginPagetc -->
       <class name="com.testcases.calculatorTc">
-        <test-method status="PASS" signature="calculatorAdd()[pri:0, instance:com.testcases.calculatorTc@6366ebe0]" name="calculatorAdd" duration-ms="2400" started-at="2020-06-12T13:17:00Z" finished-at="2020-06-12T13:17:03Z">
+        <test-method status="PASS" signature="calculatorAdd()[pri:0, instance:com.testcases.calculatorTc@15bfd87]" name="calculatorAdd" duration-ms="2130" started-at="2020-06-15T22:50:31Z" finished-at="2020-06-15T22:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculatorAdd -->
       </class> <!-- com.testcases.calculatorTc -->
       <class name="com.testcases.alertPagetc">
-        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.alertPagetc@44f75083]" name="beforeEach" is-config="true" duration-ms="7361" started-at="2020-06-12T13:16:30Z" finished-at="2020-06-12T13:16:38Z">
+        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.alertPagetc@543e710e]" name="beforeEach" is-config="true" duration-ms="6964" started-at="2020-06-15T22:50:18Z" finished-at="2020-06-15T22:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.calculatorTc@6366ebe0]" name="beforeEach" is-config="true" duration-ms="6093" started-at="2020-06-12T13:16:38Z" finished-at="2020-06-12T13:16:44Z">
+        <test-method status="PASS" signature="beforeEach()[pri:0, instance:com.testcases.calculatorTc@15bfd87]" name="beforeEach" is-config="true" duration-ms="6525" started-at="2020-06-15T22:50:25Z" finished-at="2020-06-15T22:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method status="PASS" signature="windowAlert()[pri:0, instance:com.testcases.alertPagetc@44f75083]" name="windowAlert" duration-ms="1816" started-at="2020-06-12T13:17:03Z" finished-at="2020-06-12T13:17:05Z">
+        <test-method status="PASS" signature="windowAlert()[pri:0, instance:com.testcases.alertPagetc@543e710e]" name="windowAlert" duration-ms="1852" started-at="2020-06-15T22:50:33Z" finished-at="2020-06-15T22:50:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.alertPagetc@44f75083]" name="tearDown" is-config="true" duration-ms="616" started-at="2020-06-12T13:17:12Z" finished-at="2020-06-12T13:17:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.alertPagetc@543e710e]" name="tearDown" is-config="true" duration-ms="617" started-at="2020-06-15T22:51:00Z" finished-at="2020-06-15T22:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.calculatorTc@6366ebe0]" name="tearDown" is-config="true" duration-ms="654" started-at="2020-06-12T13:17:13Z" finished-at="2020-06-12T13:17:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.calculatorTc@15bfd87]" name="tearDown" is-config="true" duration-ms="721" started-at="2020-06-15T22:51:01Z" finished-at="2020-06-15T22:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

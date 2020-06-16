@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -49,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\mahes\eclipse-workspace\qatechbase\testng.xml</span>
+                    <span>C:\Users\mahes\eclipse-workspace\qatechbase\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -169,21 +168,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testcases.calculatorTc</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="calculatorAdd">
-                  </a> <!-- calculatorAdd -->
-                  <span class="method-name">calculatorAdd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.testcases.alertPagetc</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -196,24 +180,39 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.calculatorTc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculatorAdd">
+                  </a> <!-- calculatorAdd -->
+                  <span class="method-name">calculatorAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mahes\eclipse-workspace\qatechbase\testng.xml</span>
+            <span class="header-content">C:\Users\mahes\eclipse-workspace\qatechbase\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;Listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.listeners.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testcases.loginPagetc&quot;/&gt;
       &lt;class name=&quot;com.testcases.calculatorTc&quot;/&gt;
       &lt;class name=&quot;com.testcases.alertPagetc&quot;/&gt;
+      &lt;class name=&quot;com.testcases.loginPagetc&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -257,23 +256,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'calculatorAdd')
 data.setCell(0, 2, 'com.testcases.calculatorTc')
-data.setCell(0, 3, 2400);
+data.setCell(0, 3, 2130);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'windowAlert')
 data.setCell(1, 2, 'com.testcases.alertPagetc')
-data.setCell(1, 3, 1816);
+data.setCell(1, 3, 1852);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logoutApp')
 data.setCell(2, 2, 'com.testcases.loginPagetc')
-data.setCell(2, 3, 1620);
+data.setCell(2, 3, 1720);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logintoApp')
 data.setCell(3, 2, 'com.testcases.loginPagetc')
-data.setCell(3, 3, 1518);
+data.setCell(3, 3, 1500);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'invalidlog')
 data.setCell(4, 2, 'com.testcases.loginPagetc')
-data.setCell(4, 3, 794);
+data.setCell(4, 3, 910);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -293,9 +292,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testcases.calculatorTc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">log4j</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testcases.alertPagetc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">log4j</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -314,84 +327,78 @@ return data;
               <div class="chronological-class-name">com.testcases.alertPagetc</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeEach</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.calculatorTc</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeEach</span>
-                <span class="method-start">7399 ms</span>
+                <span class="method-start">6995 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testcases.loginPagetc</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEach</span>
-                <span class="method-start">13510 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logintoApp</span>
-                <span class="method-start">19517 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">21035 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEach</span>
-                <span class="method-start">21714 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logoutApp</span>
-                <span class="method-start">27793 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">29414 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testcases.calculatorTc</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">calculatorAdd</span>
-                <span class="method-start">30071 ms</span>
+                <span class="method-start">13535 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.alertPagetc</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">windowAlert</span>
-                <span class="method-start">32473 ms</span>
+                <span class="method-start">15675 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.loginPagetc</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEach</span>
-                <span class="method-start">34293 ms</span>
+                <span class="method-start">17530 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">invalidlog</span>
-                <span class="method-start">40377 ms</span>
+                <span class="method-name">logintoApp</span>
+                <span class="method-start">23772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41173 ms</span>
+                <span class="method-start">25272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEach</span>
+                <span class="method-start">25987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutApp</span>
+                <span class="method-start">32086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEach</span>
+                <span class="method-start">34758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidlog</span>
+                <span class="method-start">40906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41817 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.alertPagetc</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41854 ms</span>
+                <span class="method-start">42567 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.calculatorTc</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42470 ms</span>
+                <span class="method-start">43184 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

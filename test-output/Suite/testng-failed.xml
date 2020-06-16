@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Listeners.TestListener"/>
   </listeners>
@@ -8,12 +8,23 @@
     <classes>
       <class name="com.testcases.loginPagetc">
         <methods>
+          <include name="logoutApp"/>
           <include name="log4j"/>
-          <include name="beforeEach"/>
-          <include name="tearDown"/>
+          <include name="logintoApp"/>
           <include name="invalidlog"/>
         </methods>
       </class> <!-- com.testcases.loginPagetc -->
+      <class name="com.testcases.alertPagetc">
+        <methods>
+          <include name="beforeEach"/>
+          <include name="windowAlert"/>
+        </methods>
+      </class> <!-- com.testcases.alertPagetc -->
+      <class name="com.testcases.calculatorTc">
+        <methods>
+          <include name="calculatorAdd"/>
+        </methods>
+      </class> <!-- com.testcases.calculatorTc -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.resources.Testbase;
+import com.utilties.Testbase;
+
+
 
 public class HomePage extends Testbase {
      
@@ -28,26 +30,26 @@ public WebDriver driver;
 	WebElement alert;
 	
 	public boolean home() {
-		comUtil.waitforElement(driver, home);
+		browUtil.waitforElement(driver, home);
 		 return home.isDisplayed();
 	}
 	
 	public calculatorPage calButton() {
-		comUtil.waitforElement(driver,calButton);
-		comUtil.clickElement(calButton);
+		browUtil.waitforElement(driver,calButton);
+		browUtil.clickElement(calButton);
 		return new calculatorPage(driver);
 	}
 	
 	public alertPage alertfn() {
-		comUtil.waitforElement(driver, switchTo);
-		comUtil.clickElement(switchTo);
-		comUtil.clickElement(alert);
+		browUtil.waitforElement(driver, switchTo);
+		browUtil.clickElement(switchTo);
+		browUtil.clickElement(alert);
 		return new alertPage(driver);
 	}
 	
 	public void logOut() {
-		comUtil.waitforElement(driver, logout);
-		comUtil.clickElement(logout);
+		browUtil.waitforElement(driver, logout);
+		browUtil.clickElement(logout);
 		
 	}
 	

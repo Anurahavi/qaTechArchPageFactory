@@ -1,72 +1,173 @@
-2020-06-11 22:53:57 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 22:53:58 INFO  loginPagetc 34 - Logged in to the application by entering valid crendential
-2020-06-11 23:31:03 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:31:04 INFO  loginPagetc 34 - Logged in to the application by entering valid credential
-2020-06-11 23:31:46 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:39:00 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:40:33 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:47:25 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:49:40 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-11 23:54:22 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-12 00:02:05 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-12 00:03:26 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-12 00:05:10 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-12 00:09:11 INFO  loginPagetc 27 - Launched the browser and entered the URL
-2020-06-12 00:11:14 INFO  loginPagetc 29 - Launched the browser and entered the URL
-2020-06-12 00:19:47 INFO  loginPagetc 29 - Launched the browser and entered the URL
-2020-06-12 00:26:47 INFO  loginPagetc 29 - Launched the browser and entered the URL
-2020-06-12 00:29:12 INFO  loginPagetc 30 - Launched the browser and entered the URL
-2020-06-12 01:15:13 INFO  loginPagetc 30 - Launched the browser and entered the URL
-2020-06-12 01:49:36 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 01:49:37 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 01:54:38 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 01:54:39 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:07:40 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:07:40 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:08:53 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:08:54 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:11:06 INFO  calculatorTc 22 - Launched the browser and entered the URL
-2020-06-12 12:11:12 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:11:12 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:11:13 INFO  calculatorTc 29 - Logged into App with valid credentials
-2020-06-12 12:11:16 INFO  calculatorTc 32 - Checked the addition operation of calculator
-2020-06-12 12:20:59 INFO  calculatorTc 22 - Launched the browser and entered the URL
-2020-06-12 12:21:05 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:21:06 INFO  loginPagetc 48 - Error : The email address is badly formatted.
-2020-06-12 12:21:06 INFO  loginPagetc 49 - Invalid login error message is displayed
-2020-06-12 12:21:06 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:21:07 INFO  calculatorTc 29 - Logged into App with valid credentials
-2020-06-12 12:21:09 INFO  calculatorTc 32 - Checked the addition operation of calculator
-2020-06-12 12:22:06 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:22:06 INFO  loginPagetc 48 - Error : The email address is badly formatted.
-2020-06-12 12:22:06 INFO  loginPagetc 49 - Invalid login error message is displayed
-2020-06-12 12:22:07 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:24:13 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:24:14 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:24:58 INFO  loginPagetc 32 - Launched the browser and entered the URL
-2020-06-12 12:24:59 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
-2020-06-12 12:26:26 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:26:26 INFO  loginPagetc 41 - Logged in to the application by entering valid credential
-2020-06-12 12:26:34 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:30:58 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:30:58 INFO  loginPagetc 41 - Logged in to the application by entering valid credential
-2020-06-12 12:31:06 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:31:09 INFO  loginPagetc 50 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
-2020-06-12 12:31:09 INFO  loginPagetc 51 - Invalid login error message is displayed
-2020-06-12 12:36:55 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:36:55 INFO  loginPagetc 41 - Logged in to the application by entering valid credential
-2020-06-12 12:37:03 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 12:37:04 INFO  loginPagetc 50 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
-2020-06-12 12:37:04 INFO  loginPagetc 51 - Invalid login error message is displayed
-2020-06-12 13:16:38 INFO  alertPagetc 27 - Launched the browser and entered the URL
-2020-06-12 13:16:44 INFO  calculatorTc 22 - Launched the browser and entered the URL
-2020-06-12 13:16:50 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 13:16:50 INFO  loginPagetc 41 - Logged in to the application by entering valid credential
-2020-06-12 13:16:58 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 13:17:00 INFO  loginPagetc 60 - Logged out of the application
-2020-06-12 13:17:01 INFO  calculatorTc 29 - Logged into App with valid credentials
-2020-06-12 13:17:03 INFO  calculatorTc 32 - Checked the addition operation of calculator
-2020-06-12 13:17:05 INFO  alertPagetc 36 - Alert accepted
-2020-06-12 13:17:11 INFO  loginPagetc 34 - Launched the browser and entered the URL
-2020-06-12 13:17:11 INFO  loginPagetc 50 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
-2020-06-12 13:17:11 INFO  loginPagetc 51 - Invalid login error message is displayed
+2020-06-15 12:28:06 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 12:28:12 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 12:28:13 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 12:28:15 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 12:28:17 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 12:28:23 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 12:28:23 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 12:28:25 INFO  loginPagetc 66 - Closing browser
+2020-06-15 12:28:31 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 12:28:33 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 12:28:33 INFO  loginPagetc 66 - Closing browser
+2020-06-15 12:28:40 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 12:28:41 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 12:28:41 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 12:28:41 INFO  loginPagetc 66 - Closing browser
+2020-06-15 12:28:42 INFO  alertPagetc 42 - Closing browser
+2020-06-15 12:28:42 INFO  calculatorTc 39 - Closing browser
+2020-06-15 17:37:41 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 17:37:47 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 17:37:47 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 17:37:49 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 17:37:51 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 17:37:57 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:37:57 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 17:37:58 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:38:05 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:38:06 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 17:38:06 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:38:13 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:38:14 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 17:38:14 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 17:38:14 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:38:15 INFO  alertPagetc 42 - Closing browser
+2020-06-15 17:38:15 INFO  calculatorTc 39 - Closing browser
+2020-06-15 17:39:57 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 17:40:03 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 17:40:09 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:40:09 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 17:40:11 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:40:17 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:40:19 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 17:40:19 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:40:20 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 17:40:22 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 17:41:00 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:41:01 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 17:41:01 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 17:41:01 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:41:02 INFO  alertPagetc 42 - Closing browser
+2020-06-15 17:41:02 INFO  calculatorTc 39 - Closing browser
+2020-06-15 17:42:54 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 17:43:00 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 17:43:00 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 17:43:02 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 17:43:04 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 17:43:10 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:43:10 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 17:43:12 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:43:18 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:43:20 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 17:43:20 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:43:27 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:43:27 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 17:43:27 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 17:43:27 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:43:28 INFO  alertPagetc 42 - Closing browser
+2020-06-15 17:43:29 INFO  calculatorTc 39 - Closing browser
+2020-06-15 17:46:09 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:46:09 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 17:46:10 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:46:17 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:46:18 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 17:46:18 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:46:26 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:46:27 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 17:46:27 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 17:46:27 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:49:27 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 17:49:27 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 17:49:29 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 17:49:29 INFO  calculatorTc 39 - Closing browser
+2020-06-15 17:49:36 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 17:49:38 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 17:49:38 INFO  alertPagetc 42 - Closing browser
+2020-06-15 17:49:44 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:49:45 INFO  loginPagetc 42 - Logged in to the application by entering valid credential
+2020-06-15 17:49:46 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:49:53 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:49:55 INFO  loginPagetc 61 - Logged out of the application
+2020-06-15 17:49:55 INFO  loginPagetc 66 - Closing browser
+2020-06-15 17:50:02 INFO  loginPagetc 35 - Launched the browser and entered the URL
+2020-06-15 17:50:03 INFO  loginPagetc 51 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 17:50:03 INFO  loginPagetc 52 - Invalid login error message is displayed
+2020-06-15 17:50:03 INFO  loginPagetc 66 - Closing browser
+2020-06-15 21:44:39 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 21:44:45 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 21:44:45 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 21:44:48 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 21:44:49 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 21:44:56 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 21:44:56 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
+2020-06-15 21:44:57 INFO  loginPagetc 63 - Closing browser
+2020-06-15 21:45:04 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 21:45:05 INFO  loginPagetc 58 - Logged out of the application
+2020-06-15 21:45:05 INFO  loginPagetc 63 - Closing browser
+2020-06-15 21:45:12 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 21:45:13 INFO  loginPagetc 48 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 21:45:13 INFO  loginPagetc 49 - Invalid login error message is displayed
+2020-06-15 21:45:13 INFO  loginPagetc 63 - Closing browser
+2020-06-15 21:45:14 INFO  alertPagetc 42 - Closing browser
+2020-06-15 21:45:14 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:05:46 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:05:46 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:05:48 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:05:48 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:09:45 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 22:09:51 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:09:51 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:09:54 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:09:56 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 22:10:02 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:10:02 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
+2020-06-15 22:10:03 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:10:10 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:10:12 INFO  loginPagetc 58 - Logged out of the application
+2020-06-15 22:10:12 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:10:19 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:10:20 INFO  loginPagetc 48 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 22:10:20 INFO  loginPagetc 49 - Invalid login error message is displayed
+2020-06-15 22:10:20 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:10:21 INFO  alertPagetc 42 - Closing browser
+2020-06-15 22:10:21 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:15:40 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:15:40 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:15:42 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:15:42 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:25:26 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:25:26 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:25:29 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:25:29 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:31:08 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:31:08 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:31:10 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:31:10 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:34:12 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:34:13 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:34:15 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:34:15 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:44:11 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:44:11 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:44:13 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:44:13 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:47:16 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:47:17 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:47:19 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:47:19 INFO  calculatorTc 39 - Closing browser
+2020-06-15 22:50:25 INFO  alertPagetc 28 - Launched the browser and entered the URL
+2020-06-15 22:50:31 INFO  calculatorTc 23 - Launched the browser and entered the URL
+2020-06-15 22:50:31 INFO  calculatorTc 30 - Logged into App with valid credentials
+2020-06-15 22:50:33 INFO  calculatorTc 33 - Checked the addition operation of calculator
+2020-06-15 22:50:35 INFO  alertPagetc 37 - Alert accepted
+2020-06-15 22:50:41 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:50:42 INFO  loginPagetc 39 - Logged in to the application by entering valid credential
+2020-06-15 22:50:43 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:50:50 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:50:51 INFO  loginPagetc 58 - Logged out of the application
+2020-06-15 22:50:51 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:50:58 INFO  loginPagetc 32 - Launched the browser and entered the URL
+2020-06-15 22:50:59 INFO  loginPagetc 48 - Error : There is no user record corresponding to this identifier. The user may have been deleted.
+2020-06-15 22:50:59 INFO  loginPagetc 49 - Invalid login error message is displayed
+2020-06-15 22:50:59 INFO  loginPagetc 63 - Closing browser
+2020-06-15 22:51:00 INFO  alertPagetc 42 - Closing browser
+2020-06-15 22:51:01 INFO  calculatorTc 39 - Closing browser
